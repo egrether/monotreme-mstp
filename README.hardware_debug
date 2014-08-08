@@ -1,0 +1,54 @@
+(1) Varying Grounds:
+
+DESCRIPTION: IF:
+1) One or more devices on an MSTP connection are NOT grounded and the ungrounded
+device(s) are not connected to the other devices with a damn-wire, OR
+2) No more than one device is grounded and NOT all others receive gnd using a 
+damn-wire,
+
+THEN you may see these symptoms:
+
+SYMPTOMS:
+1) "cat /proc/mstp/comX/nodes" shows no devices, even though the NBM and all of
+the other devices on the MSTP net should be configured AND running properly, 
+and/or
+2) Logging shows this kind of message:
+"MSTP_MNST_XMT_DLY_XXX: Rcvd byte or error event (0x%02x) while delaying a 
+reply xmssn."
+
+FIX:
+Ensure that all devices are properly grounded and no damn-wires are
+connected, OR that no more than one device is grounded and that all devices are
+connected with "single-point" (ie avoid ground loops) damn-wires.
+
+EMPIRICAL OBSERVATIONS: I saw this issue between a 2400 and a 2500. I tested
+2400/2400 and 2500/2500, and did not see the problem (probably because of 
+similar power supply arrangements). I also did not see the problem between any
+2400 or 2500 and any 3rd party device to which those NBMs were connected (RS485).
+To enable logging on the NBMs:
+1) Run the MFW interactively at an ssh prompt.
+2) At another ssh prompt: echo 1 > /proc/mstp/comX/log_enabled
+3) At the interactive MFW prompt:
+    from mpx.lib.node import as_node
+    n = as_node('/services/network/BACnet/internetwork/Configuration/<mstp_node_name>')
+    n.start_log()
+
+  Messages will print at the interactive prompt. To subsequently stop the log:
+   n.stop_log()
+
+Although the "cat /proc/mstp/comX/nodes" result was empty for both 2400 and 2500,
+only the 2400 logs indicated that the MSTP_MNST_XMT_DLY_PFM_REPLY state was
+repeatedly being interrupted by reception of a "0x00" byte, every few seconds.
+Using a DVM (set to 20VDC range), I determined that the voltage between gnd on
+the 2500 and on either line A or line B of the malfunctioning RS485 port was up
+around 6 VDC: 'way too high. Between gnd and any other connected, functional
+RS485 line should be between 0.5 and 3 VDC, or so.
+
+Connecting a damn-wire between the 2400 and 2500 fixed the problem completely.
+
+(2) Flipped RS485 Lines:
+The senses of the A and B lines on all RS485 ports of both the 2400 and 2500 are
+inverted relative to pretty much every other device tested (including RZ-VAV-B,
+some Alertons, some KMCs, etc.). So, if an NBM should be configured to talk to
+a 3rd-party MSTP device, but "cat /proc/mstp/comX/nodes" shows no devices found,
+try inverting the lines at the NBM.

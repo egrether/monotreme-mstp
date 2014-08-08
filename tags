@@ -1,0 +1,576 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABORT_PDU	bacnet_lib.h	/^struct ABORT_PDU {$/;"	s
+ABORT_TYPE	bacnet_lib.h	/^  ABORT_TYPE = 7$/;"	e	enum:BACNET_TAG::PDU_TYPE
+BACNET_APCI	bacnet_lib.h	/^struct BACNET_APCI {$/;"	s	struct:BACNET_TAG
+BACNET_BUFFER	bacnet_lib.h	/^struct BACNET_BUFFER {$/;"	s	struct:BACNET_TAG
+BACNET_NPCI	bacnet_lib.h	/^struct BACNET_NPCI {$/;"	s	struct:BACNET_TAG
+BACNET_TAG	bacnet_lib.h	/^struct BACNET_TAG {$/;"	s
+BN_ADDR	bacnet_lib.h	/^struct BN_ADDR {$/;"	s	struct:BACNET_TAG
+COMPLEX_ACK_PDU	bacnet_lib.h	/^struct COMPLEX_ACK_PDU {$/;"	s
+COMPLEX_ACK_TYPE	bacnet_lib.h	/^  COMPLEX_ACK_TYPE = 3,$/;"	e	enum:BACNET_TAG::PDU_TYPE
+CONFIRMED_REQUEST_PDU	bacnet_lib.h	/^struct CONFIRMED_REQUEST_PDU {$/;"	s
+CONFIRMED_REQUEST_TYPE	bacnet_lib.h	/^  CONFIRMED_REQUEST_TYPE = 0,$/;"	e	enum:BACNET_TAG::PDU_TYPE
+DEBUG_MODUL	super_hdr.h	50;"	d
+DEBUG_PKT_E	super_hdr.h	38;"	d
+DEBUG_PROTO_E	super_hdr.h	44;"	d
+DISCONNECT_CONNECTION	bacnet_lib.h	/^  DISCONNECT_CONNECTION = 0X09,$/;"	e	enum:BACNET_TAG::NET_MSG_TYPE
+ERROR_PDU	bacnet_lib.h	/^struct ERROR_PDU {$/;"	s
+ERROR_TYPE	bacnet_lib.h	/^  ERROR_TYPE = 5,$/;"	e	enum:BACNET_TAG::PDU_TYPE
+ESTABLISH_CONNECTION	bacnet_lib.h	/^  ESTABLISH_CONNECTION = 0X08,$/;"	e	enum:BACNET_TAG::NET_MSG_TYPE
+INIT_ROUTING_TABLE	bacnet_lib.h	/^  INIT_ROUTING_TABLE = 0X06,$/;"	e	enum:BACNET_TAG::NET_MSG_TYPE
+INIT_ROUTING_TABLE_ACK	bacnet_lib.h	/^  INIT_ROUTING_TABLE_ACK = 0X07,$/;"	e	enum:BACNET_TAG::NET_MSG_TYPE
+INT16	bacnet_lib.h	5;"	d
+INT32	bacnet_lib.h	13;"	d
+INT64	bacnet_lib.h	21;"	d
+I_AM_ROUTER	bacnet_lib.h	/^  I_AM_ROUTER = 0X01,$/;"	e	enum:BACNET_TAG::NET_MSG_TYPE
+I_COULD_BE_ROUTER	bacnet_lib.h	/^  I_COULD_BE_ROUTER = 0X02,$/;"	e	enum:BACNET_TAG::NET_MSG_TYPE
+KERNEL_SRC	Makefile	/^KERNEL_SRC := \/home\/sasarava\/work\/linux-2.6.33$/;"	m
+MPX_TYPE	mpx_cfg.c	/^char* MPX_TYPE = "1200";$/;"	v
+MSEC_PER_JIFFY	main.c	/^const int MSEC_PER_JIFFY           = 1000 \/ HZ;       \/\/ used for dyn calc of jiffies from msecs$/;"	v
+MSTP_ANSWER_DATA_REQ	n_mstp.h	/^	MSTP_ANSWER_DATA_REQ$/;"	e	enum:__anon4
+MSTP_BCAST_ADDR	n_mstp.h	194;"	d
+MSTP_DATA_NO_REPLY	n_mstp.h	183;"	d
+MSTP_DATA_REPLY	n_mstp.h	182;"	d
+MSTP_E_BAD_CRC	n_mstp.h	189;"	d
+MSTP_E_NOT_DONE_YET	n_mstp.h	190;"	d
+MSTP_IOCGADDRS	iocs.h	20;"	d
+MSTP_IOCGNODES	iocs.h	24;"	d
+MSTP_IOCSADDR	iocs.h	21;"	d
+MSTP_IOCTESTREQ	iocs.h	27;"	d
+MSTP_IOC_MAGIC	iocs.h	6;"	d
+MSTP_MASTER_WRAP	n_mstp.h	138;"	d
+MSTP_MAX_DATA_SIZE	n_mstp.h	116;"	d
+MSTP_MAX_PKT_SIZE	n_mstp.h	115;"	d
+MSTP_MAX_SEG_NODES	n_mstp.h	192;"	d
+MSTP_MNST_DONE_WITH_TOKEN	n_mstp.h	/^	MSTP_MNST_DONE_WITH_TOKEN   = -1,$/;"	e	enum:__anon4
+MSTP_MNST_IDLE	n_mstp.h	/^	MSTP_MNST_IDLE              = 0,$/;"	e	enum:__anon4
+MSTP_MNST_NO_TOKEN	n_mstp.h	/^	MSTP_MNST_NO_TOKEN,$/;"	e	enum:__anon4
+MSTP_MNST_PASS_TOKEN	n_mstp.h	/^	MSTP_MNST_PASS_TOKEN,$/;"	e	enum:__anon4
+MSTP_MNST_POLL_FOR_MASTER	n_mstp.h	/^	MSTP_MNST_POLL_FOR_MASTER,$/;"	e	enum:__anon4
+MSTP_MNST_USE_TOKEN	n_mstp.h	/^	MSTP_MNST_USE_TOKEN         = -2,$/;"	e	enum:__anon4
+MSTP_MNST_WAIT_FOR_REPLY	n_mstp.h	/^	MSTP_MNST_WAIT_FOR_REPLY,$/;"	e	enum:__anon4
+MSTP_N_MAX_INFO_FRAMES	n_mstp.h	123;"	d
+MSTP_N_MAX_MASTER	n_mstp.h	124;"	d
+MSTP_N_MIN_OCTETS	n_mstp.h	127;"	d
+MSTP_N_POLL	n_mstp.h	125;"	d
+MSTP_N_RETRY_TOKEN	n_mstp.h	126;"	d
+MSTP_PFM	n_mstp.h	178;"	d
+MSTP_PFM_REPLY	n_mstp.h	179;"	d
+MSTP_PKT_DATA_LEN0_IDX	n_mstp.h	112;"	d
+MSTP_PKT_DATA_LEN1_IDX	n_mstp.h	111;"	d
+MSTP_PKT_DST_IDX	n_mstp.h	109;"	d
+MSTP_PKT_FRAME_TYPE_IDX	n_mstp.h	108;"	d
+MSTP_PKT_HDR_CRC_IDX	n_mstp.h	113;"	d
+MSTP_PKT_HDR_SIZE	n_mstp.h	107;"	d
+MSTP_PKT_SRC_IDX	n_mstp.h	110;"	d
+MSTP_PREAMBLE1	n_mstp.h	119;"	d
+MSTP_PREAMBLE2	n_mstp.h	120;"	d
+MSTP_REPLY_POSTPONED	n_mstp.h	184;"	d
+MSTP_RFST_DATA	n_mstp.h	/^	MSTP_RFST_DATA$/;"	e	enum:__anon3
+MSTP_RFST_HEADER	n_mstp.h	/^	MSTP_RFST_HEADER,$/;"	e	enum:__anon3
+MSTP_RFST_IDLE	n_mstp.h	/^	MSTP_RFST_IDLE,$/;"	e	enum:__anon3
+MSTP_RFST_PREAMBLE	n_mstp.h	/^	MSTP_RFST_PREAMBLE,$/;"	e	enum:__anon3
+MSTP_RXQ_LEN	n_mstp.h	335;"	d
+MSTP_TEST_REQ	n_mstp.h	180;"	d
+MSTP_TEST_REQ_DATA_LEN	n_mstp.h	333;"	d
+MSTP_TEST_RESP	n_mstp.h	181;"	d
+MSTP_TJ_FRAME_ABORT	main.c	/^const int MSTP_TJ_FRAME_ABORT      = (10 * HZ) \/ 1000;  \/\/ max jiffies without byte recvd or error evt before discarding current frame$/;"	v
+MSTP_TJ_FRAME_GAP	main.c	/^const int MSTP_TJ_FRAME_GAP        =  20;             \/\/ max # bit times allowed between successive bytes in a xmttd frame$/;"	v
+MSTP_TJ_NO_TOKEN	main.c	/^const int MSTP_TJ_NO_TOKEN         = (500 * HZ) \/ 1000; \/\/ jiffies without byte recvd or error evt before declaring lost token$/;"	v
+MSTP_TJ_REPLY_DELAY	main.c	/^const int MSTP_TJ_REPLY_DELAY      = (250 * HZ) \/ 1000; \/\/ max jiffies after recvg "reply-req'd" frame before starting reply xmssn$/;"	v
+MSTP_TJ_REPLY_TIMEOUT	main.c	/^const int MSTP_TJ_REPLY_TIMEOUT    = (255 * HZ) \/ 1000; \/\/ min jiffies without byte recvd or error evt before declaring "no reply"$/;"	v
+MSTP_TJ_SLOT	main.c	/^const int MSTP_TJ_SLOT             =  (10 * HZ) \/ 1000; \/\/ jiffies during which a given node may generate a token$/;"	v
+MSTP_TJ_USAGE_DELAY	main.c	/^const int MSTP_TJ_USAGE_DELAY      =  (15 * HZ) \/ 1000; \/\/ max jiffies after recvg token or PFM frame before sending at least one byte$/;"	v
+MSTP_TJ_USAGE_TIMEOUT	main.c	/^const int MSTP_TJ_USAGE_TIMEOUT    =  (20 * HZ) \/ 1000; \/\/ min jiffies xmttr must wait (after sending token or PFM) for recvr to send 1st byte$/;"	v
+MSTP_TOKEN	n_mstp.h	177;"	d
+MSTP_TXQ_LEN	n_mstp.h	336;"	d
+MYPWD	Makefile	/^MYPWD = $(shell pwd)$/;"	m
+NET_MSG_TYPE	bacnet_lib.h	/^enum NET_MSG_TYPE {$/;"	g	struct:BACNET_TAG
+NET_PRIORITY	bacnet_lib.h	/^enum NET_PRIORITY {$/;"	g	struct:BACNET_TAG
+NONE	bacnet_lib.h	/^  NONE = 0x00$/;"	e	enum:BACNET_TAG::NET_MSG_TYPE
+N_MSTP	main.c	118;"	d	file:
+PACKED_APCI	bacnet_lib.h	/^union PACKED_APCI {$/;"	u
+PACKED_NPCI	bacnet_lib.h	/^struct PACKED_NPCI {$/;"	s
+PDU_TYPE	bacnet_lib.h	/^enum PDU_TYPE {$/;"	g	struct:BACNET_TAG
+PKTFL_RESPOND	n_mstp.h	147;"	d
+REJECT_MESSAGE	bacnet_lib.h	/^  REJECT_MESSAGE = 0X03,$/;"	e	enum:BACNET_TAG::NET_MSG_TYPE
+REJECT_PDU	bacnet_lib.h	/^struct REJECT_PDU {$/;"	s
+REJECT_TYPE	bacnet_lib.h	/^  REJECT_TYPE = 6,$/;"	e	enum:BACNET_TAG::PDU_TYPE
+ROUTER_AVAILABLE	bacnet_lib.h	/^  ROUTER_AVAILABLE = 0X05,$/;"	e	enum:BACNET_TAG::NET_MSG_TYPE
+ROUTER_BUSY	bacnet_lib.h	/^  ROUTER_BUSY = 0X04,$/;"	e	enum:BACNET_TAG::NET_MSG_TYPE
+RZNET_IOCGNODES	test_ioctl.py	/^RZNET_IOCGNODES = 0x54E10011$/;"	v
+SEGMENTED_COMPLEX_ACK_PDU	bacnet_lib.h	/^struct SEGMENTED_COMPLEX_ACK_PDU {$/;"	s
+SEGMENTED_CONFIRMED_REQUEST_PDU	bacnet_lib.h	/^struct SEGMENTED_CONFIRMED_REQUEST_PDU {$/;"	s
+SEGMENT_ACK_PDU	bacnet_lib.h	/^struct SEGMENT_ACK_PDU {$/;"	s
+SEGMENT_ACK_TYPE	bacnet_lib.h	/^  SEGMENT_ACK_TYPE = 4,$/;"	e	enum:BACNET_TAG::PDU_TYPE
+SIMPLE_ACK_PDU	bacnet_lib.h	/^struct SIMPLE_ACK_PDU {$/;"	s
+SIMPLE_ACK_TYPE	bacnet_lib.h	/^  SIMPLE_ACK_TYPE = 2,$/;"	e	enum:BACNET_TAG::PDU_TYPE
+SOCKET_MAP	bacnet_lib.h	/^struct SOCKET_MAP {$/;"	s	struct:BACNET_TAG
+SilenceTimer	n_mstp.h	/^	struct timer_list SilenceTimer;$/;"	m	struct:mstp_info	typeref:struct:mstp_info::timer_list
+TRACE	super_hdr.h	53;"	d
+TRACE_K	super_hdr.h	56;"	d
+TRACE_K	super_hdr.h	58;"	d
+TRACE_KE	super_hdr.h	62;"	d
+TRACE_KE	super_hdr.h	64;"	d
+TRACE_L	super_hdr.h	86;"	d
+TRACE_L	super_hdr.h	88;"	d
+TRACE_M	super_hdr.h	68;"	d
+TRACE_M	super_hdr.h	70;"	d
+TRACE_PE	super_hdr.h	80;"	d
+TRACE_PE	super_hdr.h	82;"	d
+TRACE_PS	super_hdr.h	74;"	d
+TRACE_PS	super_hdr.h	76;"	d
+TRACE_Q	super_hdr.h	92;"	d
+TRACE_Q	super_hdr.h	94;"	d
+UINT16	bacnet_lib.h	9;"	d
+UINT32	bacnet_lib.h	17;"	d
+UINT64	bacnet_lib.h	25;"	d
+UNCONFIRMED_REQUEST_PDU	bacnet_lib.h	/^struct UNCONFIRMED_REQUEST_PDU {$/;"	s
+UNCONFIRMED_REQUEST_TYPE	bacnet_lib.h	/^  UNCONFIRMED_REQUEST_TYPE = 1,$/;"	e	enum:BACNET_TAG::PDU_TYPE
+UNKNOWN_PDU	bacnet_lib.h	/^struct UNKNOWN_PDU {$/;"	s
+WHO_IS_ROUTER	bacnet_lib.h	/^  WHO_IS_ROUTER = 0X00,$/;"	e	enum:BACNET_TAG::NET_MSG_TYPE
+__FSA_MN_H__	fsa_mn.h	4;"	d
+__FSA_RF_H__	fsa_rf.h	4;"	d
+__LINUX_MPX_CFG_H__	mpx_cfg.h	4;"	d
+__LINUX_N_MSTP_H__	n_mstp.h	66;"	d
+__MSTP_IOCS_H__	iocs.h	4;"	d
+__PACKED_ATTR	n_mstp.h	/^	unsigned char      pucData[1] __PACKED_ATTR;$/;"	m	struct:mstp_pkt
+__PACKED_ATTR	n_mstp.h	/^	unsigned char      ucDataLen0 __PACKED_ATTR; \/\/ ...$/;"	m	struct:mstp_pkt
+__PACKED_ATTR	n_mstp.h	/^	unsigned char      ucDataLen1 __PACKED_ATTR; \/\/ for some bizarre reason, length is packed little-endian...$/;"	m	struct:mstp_pkt
+__PACKED_ATTR	n_mstp.h	/^	unsigned char      ucDstAddr __PACKED_ATTR;$/;"	m	struct:mstp_pkt
+__PACKED_ATTR	n_mstp.h	/^	unsigned char      ucFrameType __PACKED_ATTR;$/;"	m	struct:mstp_pkt
+__PACKED_ATTR	n_mstp.h	/^	unsigned char      ucHdrCrc __PACKED_ATTR;$/;"	m	struct:mstp_pkt
+__PACKED_ATTR	n_mstp.h	/^	unsigned char      ucSrcAddr __PACKED_ATTR;$/;"	m	struct:mstp_pkt
+__PACKED_ATTR	n_mstp.h	/^	unsigned char    pucBuf[MSTP_MAX_DATA_SIZE] __PACKED_ATTR;$/;"	m	struct:mstp_npdu
+__PACKED_ATTR	n_mstp.h	/^	unsigned char    ucSrcAddr __PACKED_ATTR;$/;"	m	struct:mstp_npdu
+__PACKED_ATTR	n_mstp.h	/^	unsigned int     nLen __PACKED_ATTR;$/;"	m	struct:mstp_npdu
+__PACKED_ATTR	n_mstp.h	149;"	d
+__PROCFS_H__	procfs.h	4;"	d
+__SUPER_HDR_H__	super_hdr.h	2;"	d
+__UTIL_H__	util.h	4;"	d
+___LIB_H__	bacnet_lib.h	2;"	d
+_data	bacnet_lib.h	/^  unsigned char _data[0];	\/\/ Network Message or APDU data.$/;"	m	struct:BACNET_TAG::BACNET_BUFFER
+_get_nodes_list	test_ioctl.py	/^def _get_nodes_list():$/;"	f
+abort	bacnet_lib.h	/^  struct ABORT_PDU *abort;$/;"	m	union:PACKED_APCI	typeref:struct:PACKED_APCI::ABORT_PDU
+abort_reason	bacnet_lib.h	/^  unsigned char abort_reason;		\/\/ ** Byte 2$/;"	m	struct:ABORT_PDU
+actual_window_size	bacnet_lib.h	/^  unsigned char actual_window_size;	\/\/ ** Byte 3$/;"	m	struct:SEGMENT_ACK_PDU
+add_node_before	util.c	/^struct list_head* add_node_before(struct list_head* pLst, unsigned char ucAddr)$/;"	f
+addr_file	n_mstp.h	/^	struct proc_dir_entry* addr_file;   \/\/ read\/write access to port's MAC address$/;"	m	struct:mstp_procfs	typeref:struct:mstp_procfs::proc_dir_entry
+address	bacnet_lib.h	/^  unsigned char address[31];$/;"	m	struct:BACNET_TAG::BN_ADDR
+allocated	bacnet_lib.h	/^  int allocated:1;$/;"	m	struct:BACNET_TAG::BACNET_BUFFER
+apci	bacnet_lib.h	/^  int apci;$/;"	m	class:BACNET_TAG::__anon2
+apci	bacnet_lib.h	/^  union PACKED_APCI apci;	\/\/ Optional, variable, APCI header.$/;"	m	struct:BACNET_TAG::BACNET_BUFFER	typeref:union:BACNET_TAG::BACNET_BUFFER::PACKED_APCI
+ar_npdu_in	test_open.py	/^			ar_npdu_in = array.array('B')$/;"	v
+ar_npdu_out	test_open.py	/^ar_npdu_out = array.array('B', [0x01, 0x20, 0xFF, 0xFF, 0x00, 0xFF, 0x10, 0x08])$/;"	v
+array	test_ioctl.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+array	test_open.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+attr	test_open.py	/^	attr = tcgetattr(f.fileno())$/;"	v
+attr5	test_ioctl.py	/^	attr5 = tcgetattr(fd_ttyS5)$/;"	v
+bacnet_decode_npci_data	bacnet_lib.c	/^void bacnet_decode_npci_data(struct BACNET_BUFFER *bnb) {$/;"	f
+broadcast	bacnet_lib.h	/^  int broadcast;$/;"	m	struct:BACNET_TAG::SOCKET_MAP
+capture_node_list	util.c	/^int capture_node_list(struct mstp_info* pInfo)$/;"	f
+change_addr	util.c	/^void change_addr(struct mstp_info* pInfo)$/;"	f
+choice	bacnet_lib.h	/^  unsigned char choice;$/;"	m	struct:BACNET_TAG::BACNET_APCI
+clean-files	Makefile	/^clean-files := *.o *.ko *.mod.c$/;"	m
+clear_nodes	procfs.c	/^int clear_nodes(struct file* fp, const char* buf, unsigned long count, void* data)$/;"	f
+clear_stats	procfs.c	/^int clear_stats(struct file* fp, const char* buf, unsigned long count, void* data)$/;"	f
+clear_test	procfs.c	/^int clear_test(struct file* fp, const char* buf, unsigned long count, void* data)$/;"	f
+complex_ack	bacnet_lib.h	/^  struct COMPLEX_ACK_PDU *complex_ack;$/;"	m	union:PACKED_APCI	typeref:struct:PACKED_APCI::COMPLEX_ACK_PDU
+confirmed_request	bacnet_lib.h	/^  struct CONFIRMED_REQUEST_PDU *confirmed_request;$/;"	m	union:PACKED_APCI	typeref:struct:PACKED_APCI::CONFIRMED_REQUEST_PDU
+create_info	main.c	/^struct mstp_info* create_info(struct tty_struct* tty, struct port_cfg* pPortCfg)$/;"	f
+critical_equipment	bacnet_lib.h	/^  critical_equipment = 2,$/;"	e	enum:BACNET_TAG::NET_PRIORITY
+dByteTime	n_mstp.h	/^	double             dByteTime;     \/\/@FIXME: NEEDS TO BE SET DYNAMICALLY; currently, fixed at 2.0 msec$/;"	m	struct:mstp_info
+dadr	bacnet_lib.h	/^  int dadr;$/;"	m	class:BACNET_TAG::__anon2
+dadr	bacnet_lib.h	/^  unsigned char dadr[31];	\/\/ dlen optional octets.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+data	bacnet_lib.h	/^  int data;$/;"	m	class:BACNET_TAG::__anon2
+data	bacnet_lib.h	/^  unsigned char data[0];	\/\/ * Variable octets.$/;"	m	struct:PACKED_NPCI
+data_expecting_reply	bacnet_lib.h	/^  unsigned char data_expecting_reply : 1;$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+data_expecting_reply	bacnet_lib.h	/^  unsigned char data_expecting_reply : 1;$/;"	m	struct:PACKED_NPCI
+device	n_mstp.h	/^	dev_t              device;    \/\/ device to which this mstp_info belongs$/;"	m	struct:mstp_info
+device	n_mstp.h	/^	kdev_t             device;    \/\/ device to which this mstp_info belongs$/;"	m	struct:mstp_info
+direct	bacnet_lib.h	/^  int direct;$/;"	m	struct:BACNET_TAG::SOCKET_MAP
+dlen	bacnet_lib.h	/^  int dlen;$/;"	m	class:BACNET_TAG::__anon2
+dlen	bacnet_lib.h	/^  unsigned char dlen;		\/\/    1 optional octet.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+dnet	bacnet_lib.h	/^  int dnet;$/;"	m	class:BACNET_TAG::__anon2
+dnet	bacnet_lib.h	/^  unsigned short dnet;		\/\/    2 optional octets.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+done_with_token	fsa_mn.c	/^void done_with_token(struct mstp_info* pInfo)$/;"	f
+dspec	bacnet_lib.h	/^  unsigned char dspec : 1;	\/\/   Bit 5.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+dspec	bacnet_lib.h	/^  unsigned char dspec : 1;	\/\/   Bit 5.$/;"	m	struct:PACKED_NPCI
+dump_block	util.c	/^void dump_block(const unsigned char* block, unsigned int length)$/;"	f
+error	bacnet_lib.h	/^  struct ERROR_PDU *error;$/;"	m	union:PACKED_APCI	typeref:struct:PACKED_APCI::ERROR_PDU
+error	bacnet_lib.h	/^  unsigned char error[0];		\/\/ ** Encoded bytes 3-*$/;"	m	struct:ERROR_PDU
+error_choice	bacnet_lib.h	/^  unsigned char error_choice;		\/\/ ** Byte 2$/;"	m	struct:ERROR_PDU
+eval_hdr	fsa_rf.c	/^void eval_hdr(struct mstp_info* pInfo) \/\/ HEADER_CRC:$/;"	f
+evt_prs	test_open.py	/^	evt_prs = poll_obj.poll()$/;"	v
+exec_condl_states	fsa_mn.c	/^void exec_condl_states(struct mstp_info* pInfo, int iFirstCondlState)$/;"	f
+f	test_open.py	/^f = open('\/dev\/ttyS5', 'w+b', 0)$/;"	v
+f_ttyS5	test_ioctl.py	/^f_ttyS5 = open('\/dev\/ttyS5', 'w+b', 0)$/;"	v
+failed_PFM	fsa_mn.c	/^void failed_PFM(struct mstp_info* pInfo)$/;"	f
+fcntl	test_ioctl.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+fcntl	test_open.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+fd_mstp	test_open.py	/^fd_mstp = f.fileno()$/;"	v
+fd_stdin	test_ioctl.py	/^fd_stdin = sys.stdin.fileno()$/;"	v
+fd_stdin	test_open.py	/^fd_stdin = sys.stdin.fileno()$/;"	v
+fd_ttyS5	test_ioctl.py	/^fd_ttyS5 = f_ttyS5.fileno()$/;"	v
+find_next	fsa_mn.c	/^void find_next(struct mstp_info* pInfo)$/;"	f
+flags	test_open.py	/^flags = fcntl.fcntl(fd_mstp, fcntl.F_GETFL)$/;"	v
+flags5	test_ioctl.py	/^flags5 = fcntl.fcntl(fd_ttyS5, fcntl.F_GETFL)$/;"	v
+format_tx_frame	fsa_mn.c	/^void format_tx_frame(struct mstp_info* pInfo, unsigned char ucFrameType,$/;"	f
+g_nRX_BUF_RING_MASK	n_mstp.h	142;"	d
+g_nRX_BUF_SIZE	n_mstp.h	141;"	d
+g_nTX_BUF_SIZE	n_mstp.h	144;"	d
+g_szStatus	procfs.c	/^static const char* g_szStatus[] =$/;"	v	file:
+get_info_from_list	main.c	/^struct mstp_info* get_info_from_list(struct tty_struct* tty)$/;"	f
+get_port_cfg	main.c	/^struct port_cfg* get_port_cfg(struct tty_struct* tty)$/;"	f
+go	test_open.py	/^			go = 0$/;"	v
+go	test_open.py	/^go = 1$/;"	v
+hop_count	bacnet_lib.h	/^  int hop_count;$/;"	m	class:BACNET_TAG::__anon2
+hop_count	bacnet_lib.h	/^  unsigned char hop_count;	\/\/    1 optional octet.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+iBarrier	n_mstp.h	/^	int               iBarrier; \/\/ for debug only, to detect compiler\/linker\/kernel mismatches$/;"	m	struct:mstp_info
+iMnState	n_mstp.h	/^	int               iMnState;$/;"	m	struct:mstp_info
+iRfState	n_mstp.h	/^	int               iRfState;$/;"	m	struct:mstp_info
+init_done	n_mstp.h	/^	atomic_t           init_done; \/\/ set: init'd, clear: not$/;"	m	struct:mstp_info
+init_static_frames	main.c	/^void init_static_frames(struct mstp_info* pInfo)$/;"	f
+insert_node_btwn	util.c	/^struct list_head* insert_node_btwn(struct mstp_info *pInfo, unsigned char ucAddr,$/;"	f
+interface_address	bacnet_lib.h	/^  struct BN_ADDR interface_address;$/;"	m	struct:BACNET_TAG::SOCKET_MAP	typeref:struct:BACNET_TAG::SOCKET_MAP::BN_ADDR
+invalid_apci	bacnet_lib.h	/^  unsigned char invalid_apci : 1;		\/\/ bit 7$/;"	m	struct:BACNET_TAG::BACNET_APCI
+invoke_id	bacnet_lib.h	/^  unsigned char invoke_id;		\/\/ ** Byte 1$/;"	m	struct:ABORT_PDU
+invoke_id	bacnet_lib.h	/^  unsigned char invoke_id;		\/\/ ** Byte 1$/;"	m	struct:COMPLEX_ACK_PDU
+invoke_id	bacnet_lib.h	/^  unsigned char invoke_id;		\/\/ ** Byte 1$/;"	m	struct:ERROR_PDU
+invoke_id	bacnet_lib.h	/^  unsigned char invoke_id;		\/\/ ** Byte 1$/;"	m	struct:REJECT_PDU
+invoke_id	bacnet_lib.h	/^  unsigned char invoke_id;		\/\/ ** Byte 1$/;"	m	struct:SEGMENTED_COMPLEX_ACK_PDU
+invoke_id	bacnet_lib.h	/^  unsigned char invoke_id;		\/\/ ** Byte 1$/;"	m	struct:SEGMENT_ACK_PDU
+invoke_id	bacnet_lib.h	/^  unsigned char invoke_id;		\/\/ ** Byte 1$/;"	m	struct:SIMPLE_ACK_PDU
+invoke_id	bacnet_lib.h	/^  unsigned char invoke_id;		\/\/ ** Byte 2$/;"	m	struct:CONFIRMED_REQUEST_PDU
+invoke_id	bacnet_lib.h	/^  unsigned char invoke_id;		\/\/ ** Byte 2$/;"	m	struct:SEGMENTED_CONFIRMED_REQUEST_PDU
+invoke_id	bacnet_lib.h	/^  unsigned char invoke_id;$/;"	m	struct:BACNET_TAG::BACNET_APCI
+length	bacnet_lib.h	/^  unsigned char length;$/;"	m	struct:BACNET_TAG::BN_ADDR
+life_safety	bacnet_lib.h	/^  life_safety = 3$/;"	e	enum:BACNET_TAG::NET_PRIORITY
+list	n_mstp.h	/^	struct list_head   list; \/\/ allows inclusion of mstp_info structs in a list$/;"	m	struct:mstp_info	typeref:struct:mstp_info::list_head
+list	n_mstp.h	/^	struct list_head  list;$/;"	m	struct:mstp_node_entry	typeref:struct:mstp_node_entry::list_head
+math	test_ioctl.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+math	test_open.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+max_apdu_length_accepted	bacnet_lib.h	/^  unsigned char max_apdu_length_accepted : 4;	\/\/ bits 0-3$/;"	m	struct:BACNET_TAG::BACNET_APCI
+max_apdu_length_accepted	bacnet_lib.h	/^  unsigned char max_apdu_length_accepted : 4;$/;"	m	struct:CONFIRMED_REQUEST_PDU
+max_apdu_length_accepted	bacnet_lib.h	/^  unsigned char max_apdu_length_accepted : 4;$/;"	m	struct:SEGMENTED_CONFIRMED_REQUEST_PDU
+more_follows	bacnet_lib.h	/^  unsigned char more_follows : 1;		\/\/ bit 2$/;"	m	struct:BACNET_TAG::BACNET_APCI
+more_follows	bacnet_lib.h	/^  unsigned char more_follows : 1;	\/\/ Bit 2$/;"	m	struct:COMPLEX_ACK_PDU
+more_follows	bacnet_lib.h	/^  unsigned char more_follows : 1;	\/\/ Bit 2$/;"	m	struct:SEGMENTED_COMPLEX_ACK_PDU
+more_follows	bacnet_lib.h	/^  unsigned char more_follows : 1;	\/\/ Bit 2$/;"	m	struct:SEGMENTED_CONFIRMED_REQUEST_PDU
+more_follows	bacnet_lib.h	/^  unsigned char more_follows : 1;	\/\/ Bit 2:$/;"	m	struct:CONFIRMED_REQUEST_PDU
+more_follows	bacnet_lib.h	/^  unsigned char more_follows : 1;	\/\/ bit 2$/;"	m	struct:UNKNOWN_PDU
+mpx_cfg	n_mstp.h	/^struct mpx_cfg$/;"	s
+mpx_cfg_1200	mpx_cfg.c	/^struct mpx_cfg mpx_cfg_1200 =$/;"	v	typeref:struct:mpx_cfg
+mpx_cfg_1500	mpx_cfg.c	/^struct mpx_cfg mpx_cfg_1500 =$/;"	v	typeref:struct:mpx_cfg
+mpx_cfg_2400	mpx_cfg.c	/^struct mpx_cfg mpx_cfg_2400 =$/;"	v	typeref:struct:mpx_cfg
+mpx_cfg_2500	mpx_cfg.c	/^struct mpx_cfg mpx_cfg_2500 =$/;"	v	typeref:struct:mpx_cfg
+mpx_cfgs	mpx_cfg.c	/^struct mpx_cfg* mpx_cfgs[4] =$/;"	v	typeref:struct:mpx_cfg
+msg_type	bacnet_lib.h	/^  int msg_type;$/;"	m	class:BACNET_TAG::__anon2
+msg_type	bacnet_lib.h	/^  unsigned char msg_type;	\/\/    1 optional octet.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+mstp_SendFrame	fsa_mn.c	/^void mstp_SendFrame(struct mstp_info* pInfo, unsigned char *pucFrame, unsigned int nLen,$/;"	f
+mstp_Silence_timeout	fsa_rf.c	/^void mstp_Silence_timeout(unsigned long data)$/;"	f
+mstp_add_SilenceTimer	main.c	/^void mstp_add_SilenceTimer(struct mstp_info* pInfo)$/;"	f
+mstp_close	main.c	/^void mstp_close(struct tty_struct *tty)$/;"	f
+mstp_data_crc	util.c	/^unsigned short mstp_data_crc(unsigned char ucDataVal, unsigned short usCrcVal)$/;"	f
+mstp_data_crc_buf	util.c	/^unsigned short mstp_data_crc_buf(unsigned char* pBuf, unsigned int nLen)$/;"	f
+mstp_exit	main.c	/^module_exit(mstp_exit);$/;"	v
+mstp_exit	main.c	/^void __exit mstp_exit(void)$/;"	f
+mstp_frame_entry	n_mstp.h	/^struct mstp_frame_entry$/;"	s
+mstp_hdr_crc	util.c	/^unsigned char mstp_hdr_crc(unsigned char ucDataVal, unsigned char ucCrcVal)$/;"	f
+mstp_hdr_crc_buf	util.c	/^unsigned char mstp_hdr_crc_buf(unsigned char* pBuf, unsigned int nLen)$/;"	f
+mstp_info	n_mstp.h	/^struct mstp_info$/;"	s
+mstp_infos_list	main.c	/^struct list_head  mstp_infos_list = {NULL, NULL};$/;"	v	typeref:struct:list_head
+mstp_init	main.c	/^int __init mstp_init(void)$/;"	f
+mstp_init	main.c	/^module_init(mstp_init);$/;"	v
+mstp_init_timer	main.c	/^void mstp_init_timer(struct timer_list* tmr, void (*function)(unsigned long),$/;"	f
+mstp_ioctl	main.c	/^int mstp_ioctl(struct tty_struct *tty, struct file *file,$/;"	f
+mstp_mod_SilenceTimer	main.c	/^void mstp_mod_SilenceTimer(struct mstp_info* pInfo)$/;"	f
+mstp_mod_params_file	main.c	/^struct proc_dir_entry* mstp_mod_params_file;  \/\/ access to module param data for this mpx$/;"	v	typeref:struct:proc_dir_entry
+mstp_node_entry	n_mstp.h	/^struct mstp_node_entry$/;"	s
+mstp_npdu	n_mstp.h	/^struct mstp_npdu$/;"	s
+mstp_open	main.c	/^int mstp_open(struct tty_struct *tty)$/;"	f
+mstp_pkt	n_mstp.h	/^struct mstp_pkt$/;"	s
+mstp_poll	main.c	/^unsigned int mstp_poll(struct tty_struct* tty, struct file* file,$/;"	f
+mstp_procfs	n_mstp.h	/^struct mstp_procfs$/;"	s
+mstp_procfs_test	n_mstp.h	/^struct mstp_procfs_test$/;"	s
+mstp_read	main.c	/^ssize_t mstp_read(struct tty_struct* tty, struct file* file, unsigned char* buf, size_t nr)$/;"	f
+mstp_receive_buf	main.c	/^void mstp_receive_buf(struct tty_struct* tty, const unsigned char* cp,$/;"	f
+mstp_receive_byte	fsa_rf.c	/^void mstp_receive_byte(struct mstp_info* pInfo, const unsigned char uc)$/;"	f
+mstp_receive_error	fsa_rf.c	/^void mstp_receive_error(struct mstp_info *pInfo, const char flag)$/;"	f
+mstp_receive_room	main.c	/^int mstp_receive_room(struct tty_struct *tty)$/;"	f
+mstp_root_dir	main.c	/^struct proc_dir_entry* mstp_root_dir;   \/\/ parent dir under \/proc$/;"	v	typeref:struct:proc_dir_entry
+mstp_set_termios	main.c	/^void mstp_set_termios(struct tty_struct* tty, struct termios* old)$/;"	f
+mstp_timeout_mn	fsa_mn.c	/^void mstp_timeout_mn(struct mstp_info *pInfo)$/;"	f
+mstp_timeout_mn	fsa_mn_lm.c	/^void mstp_timeout_mn(struct mstp_info *pInfo)$/;"	f
+mstp_write	main.c	/^ssize_t mstp_write(struct tty_struct* tty, struct file* file,$/;"	f
+mstp_write_wakeup	main.c	/^void mstp_write_wakeup(struct tty_struct *tty)$/;"	f
+mtx	n_mstp.h	/^	atomic_t       mtx;$/;"	m	struct:mstp_procfs
+mtx	n_mstp.h	/^	atomic_t       mtx;$/;"	m	struct:mstp_procfs_test
+nBadDataCrc	n_mstp.h	/^	unsigned int   nBadDataCrc;$/;"	m	struct:mstp_procfs
+nBadHdrCrc	n_mstp.h	/^	unsigned int   nBadHdrCrc;$/;"	m	struct:mstp_procfs
+nByteTime	n_mstp.h	/^	unsigned int       nByteTime;     \/\/@FIXME: Floating point plays hell with the 2.6 kernel (unresolved symbols).$/;"	m	struct:mstp_info
+nDataCommErr	n_mstp.h	/^	unsigned int   nDataCommErr;$/;"	m	struct:mstp_procfs
+nDataFramesFromPort	n_mstp.h	/^	unsigned int   nDataFramesFromPort;$/;"	m	struct:mstp_procfs
+nDataReplyTo0	n_mstp.h	/^	unsigned int   nDataReplyTo0;$/;"	m	struct:mstp_procfs_test
+nDataTimeout	n_mstp.h	/^	unsigned int   nDataTimeout;$/;"	m	struct:mstp_procfs
+nDeclareSoleMaster	n_mstp.h	/^	unsigned int   nDeclareSoleMaster;$/;"	m	struct:mstp_procfs
+nEatAnError	n_mstp.h	/^	unsigned int   nEatAnError;$/;"	m	struct:mstp_procfs
+nEatAnOctet	n_mstp.h	/^	unsigned int   nEatAnOctet;$/;"	m	struct:mstp_procfs
+nEventCount	n_mstp.h	/^	unsigned int       nEventCount;   \/\/ # bytes recvd PLUS error evts$/;"	m	struct:mstp_info
+nFindNewSuccessor	n_mstp.h	/^	unsigned int   nFindNewSuccessor;$/;"	m	struct:mstp_procfs
+nFlags	n_mstp.h	/^	unsigned int       nFlags; \/\/ see PKTFL_ defines above$/;"	m	struct:mstp_frame_entry
+nFrameCount	n_mstp.h	/^	unsigned int       nFrameCount;   \/\/ total num frames sent during a token hold$/;"	m	struct:mstp_info
+nFrameTooLong	n_mstp.h	/^	unsigned int   nFrameTooLong;$/;"	m	struct:mstp_procfs
+nHdrCommErr	n_mstp.h	/^	unsigned int   nHdrCommErr;$/;"	m	struct:mstp_procfs
+nHdrTimeout	n_mstp.h	/^	unsigned int   nHdrTimeout;$/;"	m	struct:mstp_procfs
+nIRQ	n_mstp.h	/^	unsigned int      nIRQ;        \/\/ IRQ number used by port device; hardcoded$/;"	m	struct:port_cfg
+nIdleInvalidFrame	n_mstp.h	/^	unsigned int   nIdleInvalidFrame;$/;"	m	struct:mstp_procfs
+nIndex	n_mstp.h	/^	unsigned int       nIndex;        \/\/ index into nInputBuffer$/;"	m	struct:mstp_info
+nLen	n_mstp.h	/^	unsigned int       nLen;$/;"	m	struct:mstp_frame_entry
+nLostToken	n_mstp.h	/^	unsigned int   nLostToken;$/;"	m	struct:mstp_procfs
+nMpxType	n_mstp.h	/^	unsigned int           nMpxType;   \/\/ type of MPX unit (1200 = "0", 2400 = "1", 1500 = "2", 2500 = "3")$/;"	m	struct:mpx_cfg
+nNoDataFramesFromPort	n_mstp.h	/^	unsigned int   nNoDataFramesFromPort;$/;"	m	struct:mstp_procfs
+nNpduTo0	n_mstp.h	/^	unsigned int   nNpduTo0;$/;"	m	struct:mstp_procfs_test
+nNumPortCfgs	n_mstp.h	/^	unsigned int           nNumPortCfgs;   \/\/ num elems in port_cfgs array$/;"	m	struct:mpx_cfg
+nPfmUnexpectedFrame	n_mstp.h	/^	unsigned int   nPfmUnexpectedFrame;$/;"	m	struct:mstp_procfs
+nPreCommErr	n_mstp.h	/^	unsigned int   nPreCommErr;$/;"	m	struct:mstp_procfs
+nPreNotPreByte	n_mstp.h	/^	unsigned int   nPreNotPreByte;$/;"	m	struct:mstp_procfs
+nPreTimeout	n_mstp.h	/^	unsigned int   nPreTimeout;$/;"	m	struct:mstp_procfs
+nRecvdInvalFrame	n_mstp.h	/^	unsigned int       nRecvdInvalFrame;  \/\/ 1: RecvFrame FSA detected invalid incoming frame$/;"	m	struct:mstp_info
+nRecvdValidFrame	n_mstp.h	/^	unsigned int       nRecvdValidFrame;    \/\/ 1: RecvFrame FSA detected valid incoming frame$/;"	m	struct:mstp_info
+nReplyInvalidFrame	n_mstp.h	/^	unsigned int   nReplyInvalidFrame;$/;"	m	struct:mstp_procfs
+nReplyTimeout	n_mstp.h	/^	unsigned int   nReplyTimeout;$/;"	m	struct:mstp_procfs
+nReplyUnexpectedFrame	n_mstp.h	/^	unsigned int   nReplyUnexpectedFrame;$/;"	m	struct:mstp_procfs
+nRetries	n_mstp.h	/^	unsigned int       nRetries; \/\/ used for tx only$/;"	m	struct:mstp_frame_entry
+nRetryCount	n_mstp.h	/^	unsigned int       nRetryCount;   \/\/ for token passes and PFM queries$/;"	m	struct:mstp_info
+nRetrySendToken	n_mstp.h	/^	unsigned int   nRetrySendToken;$/;"	m	struct:mstp_procfs
+nRptdPre1	n_mstp.h	/^	unsigned int   nRptdPre1;$/;"	m	struct:mstp_procfs
+nRxqRdIdx	n_mstp.h	/^	unsigned int       nRxqRdIdx;     \/\/ next position in array to be read for client$/;"	m	struct:mstp_info
+nRxqWrIdx	n_mstp.h	/^	unsigned int       nRxqWrIdx;     \/\/ next position in array to be written by ldisc$/;"	m	struct:mstp_info
+nSendFrameLen	n_mstp.h	/^	unsigned int       nSendFrameLen;  \/\/ len of actual frame in pucSendFrameBuf$/;"	m	struct:mstp_info
+nSoleMaster	n_mstp.h	/^	unsigned int       nSoleMaster;       \/\/ 0: other masters detected on net, 1: we are sole master$/;"	m	struct:mstp_info
+nStatus	n_mstp.h	/^	unsigned int      nStatus;$/;"	m	struct:mstp_node_entry
+nTestRespsRecvd	n_mstp.h	/^	unsigned int   nTestRespsRecvd; \/\/ num MSTP_TEST_RESP frames recvd (with our MAC addr as dst)$/;"	m	struct:mstp_procfs
+nTimeoutMn	n_mstp.h	/^	unsigned int       nTimeoutMn;$/;"	m	struct:mstp_info
+nTokenCount	n_mstp.h	/^	unsigned int       nTokenCount;   \/\/ total # tokens send since last PFM seq$/;"	m	struct:mstp_info
+nTokenDiscon	n_mstp.h	/^	unsigned int   nTokenDiscon;  \/\/ num times src addr of cur token is NOT same as dst addr of last token$/;"	m	struct:mstp_procfs
+nTokenDrop	n_mstp.h	/^	unsigned int   nTokenDrop;    \/\/ num nodes deleted from list during update_nodes()$/;"	m	struct:mstp_procfs
+nTotalFramesFromClient	n_mstp.h	/^	unsigned int   nTotalFramesFromClient;$/;"	m	struct:mstp_procfs
+nTotalFramesFromPort	n_mstp.h	/^	unsigned int   nTotalFramesFromPort;$/;"	m	struct:mstp_procfs
+nTotalFramesMissedFromClient	n_mstp.h	/^	unsigned int   nTotalFramesMissedFromClient;$/;"	m	struct:mstp_procfs
+nTotalFramesMissedToClient	n_mstp.h	/^	unsigned int   nTotalFramesMissedToClient;$/;"	m	struct:mstp_procfs
+nTotalFramesToClient	n_mstp.h	/^	unsigned int   nTotalFramesToClient;$/;"	m	struct:mstp_procfs
+nTotalFramesToPort	n_mstp.h	/^	unsigned int   nTotalFramesToPort;$/;"	m	struct:mstp_procfs
+nTotalPfmsRecvd	n_mstp.h	/^	unsigned int   nTotalPfmsRecvd;$/;"	m	struct:mstp_procfs
+nTotalPfmsReplied	n_mstp.h	/^	unsigned int   nTotalPfmsReplied;$/;"	m	struct:mstp_procfs
+nTotalPfmsSeen	n_mstp.h	/^	unsigned int   nTotalPfmsSeen;$/;"	m	struct:mstp_procfs
+nTotalTokensPassed	n_mstp.h	/^	unsigned int   nTotalTokensPassed;$/;"	m	struct:mstp_procfs
+nTotalTokensRecvd	n_mstp.h	/^	unsigned int   nTotalTokensRecvd;$/;"	m	struct:mstp_procfs
+nTotalTokensSeen	n_mstp.h	/^	unsigned int   nTotalTokensSeen;$/;"	m	struct:mstp_procfs
+nTxqRdIdx	n_mstp.h	/^	unsigned int             nTxqRdIdx;     \/\/ next position in array to be written from client$/;"	m	struct:mstp_info
+nTxqWrIdx	n_mstp.h	/^	unsigned int             nTxqWrIdx;     \/\/ next position in array to be read by ldisc$/;"	m	struct:mstp_info
+nUnwantedFrame	n_mstp.h	/^	unsigned int   nUnwantedFrame;$/;"	m	struct:mstp_procfs
+nVersion	n_mstp.h	/^	unsigned int      nVersion[2]; \/\/ a.b$/;"	m	struct:mstp_procfs
+n_mstp-objs	Makefile	/^n_mstp-objs :=	main.o \\$/;"	m
+negative_ack	bacnet_lib.h	/^  unsigned char negative_ack : 1;		\/\/ bit 4 (oh well)$/;"	m	struct:BACNET_TAG::BACNET_APCI
+negative_ack	bacnet_lib.h	/^  unsigned char negative_ack : 1;	\/\/ Bit 1$/;"	m	struct:SEGMENT_ACK_PDU
+network	bacnet_lib.h	/^  int network;		\/\/ This socket's network.$/;"	m	struct:BACNET_TAG::SOCKET_MAP
+network_msg	bacnet_lib.h	/^  unsigned char network_msg : 1;\/\/   Bit 7.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+network_msg	bacnet_lib.h	/^  unsigned char network_msg : 1;\/\/   Bit 7.$/;"	m	struct:PACKED_NPCI
+node_array	n_mstp.h	/^	struct mstp_node_entry  node_array[MSTP_MAX_SEG_NODES]; \/\/ double-buffer for procfs read-only access$/;"	m	struct:mstp_procfs	typeref:struct:mstp_procfs::mstp_node_entry
+node_list	n_mstp.h	/^	struct list_head  node_list;$/;"	m	struct:mstp_info	typeref:struct:mstp_info::list_head
+nodes_file	n_mstp.h	/^	struct proc_dir_entry* nodes_file;  \/\/ sorted list of nodes seen on last token pass around mstp$/;"	m	struct:mstp_procfs	typeref:struct:mstp_procfs::proc_dir_entry
+normal	bacnet_lib.h	/^  normal = 0,$/;"	e	enum:BACNET_TAG::NET_PRIORITY
+npci_offset	bacnet_lib.h	/^  struct BACNET_NPCI_OFFSET npci_offset;$/;"	m	struct:BACNET_TAG::BACNET_BUFFER	typeref:struct:BACNET_TAG::BACNET_BUFFER::BACNET_NPCI_OFFSET
+os	test_ioctl.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+os	test_open.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+p	test_open.py	/^p = fcntl.ioctl(fd_mstp, TIOCSETD, s)$/;"	v
+p5	test_ioctl.py	/^p5 = fcntl.ioctl(fd_ttyS5, TIOCSETD, s)$/;"	v
+pLastNodeElem	n_mstp.h	/^	struct list_head *pLastNodeElem; \/\/ pnts to list elem of last node added or updated in node_list$/;"	m	struct:mstp_info	typeref:struct:mstp_info::list_head
+pPortCfg	n_mstp.h	/^	struct port_cfg   *pPortCfg;$/;"	m	struct:mstp_info	typeref:struct:mstp_info::port_cfg
+p_data	bacnet_lib.h	/^  void *p_data;			\/\/ Points to NPDU\/APDU data.$/;"	m	struct:BACNET_TAG::BACNET_BUFFER
+p_llc	bacnet_lib.h	/^  void *p_llc;			\/\/ Optional LLC data.$/;"	m	struct:BACNET_TAG::BACNET_BUFFER
+p_mac	bacnet_lib.h	/^  void *p_mac;			\/\/ Optional MAC data.$/;"	m	struct:BACNET_TAG::BACNET_BUFFER
+p_npci	bacnet_lib.h	/^  struct PACKED_NPCI *p_npci;	\/\/ Variable length NPCI.$/;"	m	struct:BACNET_TAG::BACNET_BUFFER	typeref:struct:BACNET_TAG::BACNET_BUFFER::PACKED_NPCI
+p_start	bacnet_lib.h	/^  unsigned char *p_start;$/;"	m	union:PACKED_APCI
+pad	bacnet_lib.h	/^  unsigned char pad[128];	\/\/ Used for the:$/;"	m	struct:BACNET_TAG::BACNET_BUFFER
+pass_token	fsa_mn.c	/^void pass_token(struct mstp_info* pInfo)$/;"	f
+pdu_type	bacnet_lib.h	/^  unsigned char pdu_type : 4;			\/\/ bits 4-7$/;"	m	struct:BACNET_TAG::BACNET_APCI
+pdu_type	bacnet_lib.h	/^  unsigned char pdu_type : 4;		\/\/ Bits 4-7: ABORT_TYPE (7)$/;"	m	struct:ABORT_PDU
+pdu_type	bacnet_lib.h	/^  unsigned char pdu_type : 4;		\/\/ Bits 4-7: COMPLEX_ACK_TYPE (3)$/;"	m	struct:COMPLEX_ACK_PDU
+pdu_type	bacnet_lib.h	/^  unsigned char pdu_type : 4;		\/\/ Bits 4-7: COMPLEX_ACK_TYPE (3)$/;"	m	struct:SEGMENTED_COMPLEX_ACK_PDU
+pdu_type	bacnet_lib.h	/^  unsigned char pdu_type : 4;		\/\/ Bits 4-7: CONFIRMED_REQUEST_TYPE (0)$/;"	m	struct:CONFIRMED_REQUEST_PDU
+pdu_type	bacnet_lib.h	/^  unsigned char pdu_type : 4;		\/\/ Bits 4-7: CONFIRMED_REQUEST_TYPE (0)$/;"	m	struct:SEGMENTED_CONFIRMED_REQUEST_PDU
+pdu_type	bacnet_lib.h	/^  unsigned char pdu_type : 4;		\/\/ Bits 4-7: ERROR_TYPE (5)$/;"	m	struct:ERROR_PDU
+pdu_type	bacnet_lib.h	/^  unsigned char pdu_type : 4;		\/\/ Bits 4-7: REJECT_TYPE (6)$/;"	m	struct:REJECT_PDU
+pdu_type	bacnet_lib.h	/^  unsigned char pdu_type : 4;		\/\/ Bits 4-7: SEGMENT_ACK_TYPE (4)$/;"	m	struct:SEGMENT_ACK_PDU
+pdu_type	bacnet_lib.h	/^  unsigned char pdu_type : 4;		\/\/ Bits 4-7: SIMPLE_ACK_TYPE (2)$/;"	m	struct:SIMPLE_ACK_PDU
+pdu_type	bacnet_lib.h	/^  unsigned char pdu_type : 4;		\/\/ Bits 4-7:UNCONFIRMED_REQUEST_TYPE(1)$/;"	m	struct:UNCONFIRMED_REQUEST_PDU
+pdu_type	bacnet_lib.h	/^  unsigned char pdu_type : 4;		\/\/ bits 4-7$/;"	m	struct:UNKNOWN_PDU
+poll_obj	test_ioctl.py	/^poll_obj = select.poll()$/;"	v
+poll_obj	test_open.py	/^poll_obj = select.poll()$/;"	v
+port_cfg	n_mstp.h	/^struct port_cfg$/;"	s
+port_cfg_array_1200	mpx_cfg.c	/^struct port_cfg  port_cfg_array_1200[] =$/;"	v	typeref:struct:port_cfg
+port_cfg_array_1500	mpx_cfg.c	/^struct port_cfg  port_cfg_array_1500[] =$/;"	v	typeref:struct:port_cfg
+port_cfg_array_2400	mpx_cfg.c	/^struct port_cfg  port_cfg_array_2400[] =$/;"	v	typeref:struct:port_cfg
+port_cfg_array_2500	mpx_cfg.c	/^struct port_cfg  port_cfg_array_2500[] =$/;"	v	typeref:struct:port_cfg
+port_cfgs	n_mstp.h	/^	struct port_cfg*       port_cfgs;  \/\/ pointer to array of port_cfgs, obtained from static array or dynamic query$/;"	m	struct:mpx_cfg	typeref:struct:mpx_cfg::port_cfg
+port_dev	n_mstp.h	/^	dev_t             port_dev;    \/\/ major\/minor numbers (or eventually file desc) of port; hardcoded$/;"	m	struct:port_cfg
+post_data_to_client	fsa_mn.c	/^void post_data_to_client(struct mstp_info* pInfo, unsigned char ucSrcAddr)$/;"	f
+post_data_to_client	fsa_mn_lm.c	/^void post_data_to_client(struct mstp_info* pInfo)$/;"	f
+print_array_as_hex	test_open.py	/^def print_array_as_hex(array_in, line_len = 14):$/;"	f
+priority	bacnet_lib.h	/^  unsigned char priority : 2;	\/\/   Bits 1,0.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+priority	bacnet_lib.h	/^  unsigned char priority : 2;	\/\/   Bits 1,0.$/;"	m	struct:PACKED_NPCI
+procfs	n_mstp.h	/^	struct mstp_procfs   procfs;$/;"	m	struct:mstp_info	typeref:struct:mstp_info::mstp_procfs
+procfs_test	n_mstp.h	/^	struct mstp_procfs_test procfs_test;$/;"	m	struct:mstp_info	typeref:struct:mstp_info::mstp_procfs_test
+proposed_window_size	bacnet_lib.h	/^  unsigned char proposed_window_size;	\/\/ ** Byte 3$/;"	m	struct:SEGMENTED_COMPLEX_ACK_PDU
+proposed_window_size	bacnet_lib.h	/^  unsigned char proposed_window_size;	\/\/ ** Byte 4$/;"	m	struct:SEGMENTED_CONFIRMED_REQUEST_PDU
+pucFrame	n_mstp.h	/^	unsigned char      pucFrame[MSTP_MAX_PKT_SIZE]; \/\/ actual frame bytes (from preamble to DataCRC)$/;"	m	struct:mstp_frame_entry
+pucHdrBuf	n_mstp.h	/^	unsigned char      pucHdrBuf[MSTP_PKT_HDR_SIZE];      \/\/ accumulates incoming hdr bytes$/;"	m	struct:mstp_info
+pucInputBuf	n_mstp.h	/^	unsigned char      pucInputBuf[MSTP_MAX_PKT_SIZE]; \/\/ buf for incoming bytes$/;"	m	struct:mstp_info
+pucSendFrameBuf	n_mstp.h	/^	unsigned char      pucSendFrameBuf[MSTP_MAX_PKT_SIZE]; \/\/ holds next ldisc-generated frame to send$/;"	m	struct:mstp_info
+read_addr	procfs.c	/^int read_addr(char* page, char** start, off_t off, int count, int* eof, void* data)$/;"	f
+read_mod_params	procfs.c	/^int read_mod_params(char* page, char** start, off_t off, int count, int* eof, void* data)$/;"	f
+read_nodes	procfs.c	/^int read_nodes(char* page, char** start, off_t off, int count, int* eof, void* data)$/;"	f
+read_rxq_frame	util.c	/^struct mstp_npdu* read_rxq_frame(struct mstp_info* pInfo)$/;"	f
+read_stats	procfs.c	/^int read_stats(char* page, char** start, off_t off, int count, int* eof, void* data)$/;"	f
+read_test	procfs.c	/^int read_test(char* page, char** start, off_t off, int count, int* eof, void* data)$/;"	f
+read_wait	n_mstp.h	/^	wait_queue_head_t read_wait;$/;"	m	struct:mstp_info
+reason	bacnet_lib.h	/^  unsigned char reason;$/;"	m	struct:BACNET_TAG::BACNET_APCI
+recv_byte_mn	fsa_mn.c	/^void recv_byte_mn(struct mstp_info* pInfo)$/;"	f
+recv_byte_mn	fsa_mn_lm.c	/^void recv_byte_mn(struct mstp_info* pInfo)$/;"	f
+reject	bacnet_lib.h	/^  struct REJECT_PDU *reject;$/;"	m	union:PACKED_APCI	typeref:struct:PACKED_APCI::REJECT_PDU
+reject_reason	bacnet_lib.h	/^  unsigned char reject_reason;		\/\/ ** Byte 2$/;"	m	struct:REJECT_PDU
+remove_node_at	util.c	/^void remove_node_at(struct mstp_info *pInfo, struct list_head **ppCurElem)$/;"	f
+reserved	bacnet_lib.h	/^  unsigned char reserved : 1;		\/\/ Bit 0:    0$/;"	m	struct:SEGMENTED_CONFIRMED_REQUEST_PDU
+reserved	bacnet_lib.h	/^  unsigned char reserved : 2;		\/\/ Bits 0-1: 0$/;"	m	struct:COMPLEX_ACK_PDU
+reserved	bacnet_lib.h	/^  unsigned char reserved : 2;		\/\/ Bits 0-1: 0$/;"	m	struct:SEGMENTED_COMPLEX_ACK_PDU
+reserved	bacnet_lib.h	/^  unsigned char reserved : 2;		\/\/ Bits 2-3: 0$/;"	m	struct:SEGMENT_ACK_PDU
+reserved	bacnet_lib.h	/^  unsigned char reserved : 2;		\/\/ bits 0-1$/;"	m	struct:UNKNOWN_PDU
+reserved	bacnet_lib.h	/^  unsigned char reserved : 4;		\/\/ Bits 0-3: 0$/;"	m	struct:ABORT_PDU
+reserved	bacnet_lib.h	/^  unsigned char reserved : 4;		\/\/ Bits 0-3: 0$/;"	m	struct:ERROR_PDU
+reserved	bacnet_lib.h	/^  unsigned char reserved : 4;		\/\/ Bits 0-3: 0$/;"	m	struct:REJECT_PDU
+reserved	bacnet_lib.h	/^  unsigned char reserved : 4;		\/\/ Bits 0-3: 0$/;"	m	struct:SIMPLE_ACK_PDU
+reserved	bacnet_lib.h	/^  unsigned char reserved : 4;		\/\/ Bits 0-3: 0$/;"	m	struct:UNCONFIRMED_REQUEST_PDU
+reserved1	bacnet_lib.h	/^  unsigned char reserved1 : 1;		\/\/ Bit 0:    0$/;"	m	struct:CONFIRMED_REQUEST_PDU
+reserved1	bacnet_lib.h	/^  unsigned char reserved1 : 1;	\/\/   Bit 6:  Must be 0.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+reserved1	bacnet_lib.h	/^  unsigned char reserved1 : 1;	\/\/   Bit 6:  Must be 0.$/;"	m	struct:PACKED_NPCI
+reserved2	bacnet_lib.h	/^  unsigned char reserved2 : 1;	\/\/   Bit 4:  Must be 0.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+reserved2	bacnet_lib.h	/^  unsigned char reserved2 : 1;	\/\/   Bit 4:  Must be 0.$/;"	m	struct:PACKED_NPCI
+reserved2	bacnet_lib.h	/^  unsigned char reserved2 : 4;		\/\/ Bits 4-7: 0$/;"	m	struct:CONFIRMED_REQUEST_PDU
+reserved2	bacnet_lib.h	/^  unsigned char reserved2 : 4;		\/\/ Bits 4-7: 0$/;"	m	struct:SEGMENTED_CONFIRMED_REQUEST_PDU
+reserved_bits	bacnet_lib.h	/^  unsigned char reserved_bits : 2;$/;"	m	struct:BACNET_TAG::BACNET_APCI
+reserved_byte	bacnet_lib.h	/^  unsigned char reserved_byte;			\/\/ Make struct 8 bytes...$/;"	m	struct:BACNET_TAG::BACNET_APCI
+root_dir	n_mstp.h	/^	struct proc_dir_entry* root_dir;    \/\/ parent dir under \/proc$/;"	m	struct:mstp_procfs	typeref:struct:mstp_procfs::proc_dir_entry
+rxq	n_mstp.h	/^	struct mstp_npdu   rxq[MSTP_RXQ_LEN];$/;"	m	struct:mstp_info	typeref:struct:mstp_info::mstp_npdu
+rxq_not_empty	n_mstp.h	/^	atomic_t           rxq_not_empty; \/\/ required, since cf of indices can be a non-atomic op$/;"	m	struct:mstp_info
+s	test_ioctl.py	/^s = struct.pack('i', 9)$/;"	v
+s	test_open.py	/^s = struct.pack('i', 0)$/;"	v
+s	test_open.py	/^s = struct.pack('i', 9)$/;"	v
+s_data	bacnet_lib.h	/^  int   s_data;$/;"	m	struct:BACNET_TAG::BACNET_BUFFER
+s_ldisc_ttyS5_org	test_ioctl.py	/^s_ldisc_ttyS5_org = struct.pack('i', 9)$/;"	v
+sadr	bacnet_lib.h	/^  int sadr;$/;"	m	class:BACNET_TAG::__anon2
+sadr	bacnet_lib.h	/^  unsigned char sadr[31];	\/\/ slen optional octets.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+segment_ack	bacnet_lib.h	/^  struct SEGMENT_ACK_PDU *segment_ack;$/;"	m	union:PACKED_APCI	typeref:struct:PACKED_APCI::SEGMENT_ACK_PDU
+segmented_complex_ack	bacnet_lib.h	/^  struct SEGMENTED_COMPLEX_ACK_PDU *segmented_complex_ack;$/;"	m	union:PACKED_APCI	typeref:struct:PACKED_APCI::SEGMENTED_COMPLEX_ACK_PDU
+segmented_confirmed_request	bacnet_lib.h	/^  struct SEGMENTED_CONFIRMED_REQUEST_PDU *segmented_confirmed_request;$/;"	m	union:PACKED_APCI	typeref:struct:PACKED_APCI::SEGMENTED_CONFIRMED_REQUEST_PDU
+segmented_message	bacnet_lib.h	/^  unsigned char segmented_message : 1;		\/\/ bit 3$/;"	m	struct:BACNET_TAG::BACNET_APCI
+segmented_message	bacnet_lib.h	/^  unsigned char segmented_message : 1;	\/\/ Bit 3:    0$/;"	m	struct:COMPLEX_ACK_PDU
+segmented_message	bacnet_lib.h	/^  unsigned char segmented_message : 1;	\/\/ Bit 3:    0$/;"	m	struct:CONFIRMED_REQUEST_PDU
+segmented_message	bacnet_lib.h	/^  unsigned char segmented_message : 1;	\/\/ Bit 3:    1$/;"	m	struct:SEGMENTED_COMPLEX_ACK_PDU
+segmented_message	bacnet_lib.h	/^  unsigned char segmented_message : 1;	\/\/ Bit 3:    1$/;"	m	struct:SEGMENTED_CONFIRMED_REQUEST_PDU
+segmented_message	bacnet_lib.h	/^  unsigned char segmented_message : 1;	\/\/ bit 3$/;"	m	struct:UNKNOWN_PDU
+segmented_response_accepted	bacnet_lib.h	/^  unsigned char segmented_response_accepted : 1;$/;"	m	struct:CONFIRMED_REQUEST_PDU
+segmented_response_accepted	bacnet_lib.h	/^  unsigned char segmented_response_accepted : 1;$/;"	m	struct:SEGMENTED_CONFIRMED_REQUEST_PDU
+segmented_response_accepted	bacnet_lib.h	/^  unsigned char segmented_response_accepted : 1;\/\/ bit 1$/;"	m	struct:BACNET_TAG::BACNET_APCI
+select	test_ioctl.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+select	test_open.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+send_PFM	fsa_mn.c	/^void send_PFM(struct mstp_info* pInfo)$/;"	f
+sequence_number	bacnet_lib.h	/^  unsigned char sequence_number;	\/\/ ** Byte 2$/;"	m	struct:SEGMENTED_COMPLEX_ACK_PDU
+sequence_number	bacnet_lib.h	/^  unsigned char sequence_number;	\/\/ ** Byte 2$/;"	m	struct:SEGMENT_ACK_PDU
+sequence_number	bacnet_lib.h	/^  unsigned char sequence_number;	\/\/ ** Byte 3$/;"	m	struct:SEGMENTED_CONFIRMED_REQUEST_PDU
+sequence_number	bacnet_lib.h	/^  unsigned char sequence_number;$/;"	m	struct:BACNET_TAG::BACNET_APCI
+server	bacnet_lib.h	/^  unsigned char server : 1;			\/\/ bit 0$/;"	m	struct:BACNET_TAG::BACNET_APCI
+server	bacnet_lib.h	/^  unsigned char server : 1;		\/\/ Bit 0:$/;"	m	struct:SEGMENT_ACK_PDU
+service_ack	bacnet_lib.h	/^  unsigned char service_ack[0];		\/\/ ** Encoded bytes 3-*$/;"	m	struct:COMPLEX_ACK_PDU
+service_ack	bacnet_lib.h	/^  unsigned char service_ack[0];		\/\/ ** Encoded bytes 5-*$/;"	m	struct:SEGMENTED_COMPLEX_ACK_PDU
+service_ack_choice	bacnet_lib.h	/^  unsigned char service_ack_choice;	\/\/ ** Byte 2$/;"	m	struct:COMPLEX_ACK_PDU
+service_ack_choice	bacnet_lib.h	/^  unsigned char service_ack_choice;	\/\/ ** Byte 2$/;"	m	struct:SIMPLE_ACK_PDU
+service_ack_choice	bacnet_lib.h	/^  unsigned char service_ack_choice;	\/\/ ** Byte 4$/;"	m	struct:SEGMENTED_COMPLEX_ACK_PDU
+service_choice	bacnet_lib.h	/^  unsigned char service_choice;		\/\/ ** Byte 1$/;"	m	struct:UNCONFIRMED_REQUEST_PDU
+service_choice	bacnet_lib.h	/^  unsigned char service_choice;		\/\/ ** Byte 3$/;"	m	struct:CONFIRMED_REQUEST_PDU
+service_choice	bacnet_lib.h	/^  unsigned char service_choice;		\/\/ ** Byte 5$/;"	m	struct:SEGMENTED_CONFIRMED_REQUEST_PDU
+service_request	bacnet_lib.h	/^  unsigned char service_request[0];	\/\/ ** Encoded bytes 2-*$/;"	m	struct:UNCONFIRMED_REQUEST_PDU
+service_request	bacnet_lib.h	/^  unsigned char service_request[0];	\/\/ ** Encoded bytes 4-*$/;"	m	struct:CONFIRMED_REQUEST_PDU
+service_request	bacnet_lib.h	/^  unsigned char service_request[0];	\/\/ ** Encoded bytes 6-*$/;"	m	struct:SEGMENTED_CONFIRMED_REQUEST_PDU
+set_addr	procfs.c	/^int set_addr(struct file* fp, const char* buf, unsigned long count, void* data)$/;"	f
+set_idle_state	fsa_mn.c	/^void set_idle_state(struct mstp_info *pInfo)$/;"	f
+simple_ack	bacnet_lib.h	/^  struct SIMPLE_ACK_PDU *simple_ack;$/;"	m	union:PACKED_APCI	typeref:struct:PACKED_APCI::SIMPLE_ACK_PDU
+size	bacnet_lib.h	/^  int size;			\/\/ The *total* size of the allocated BACnet$/;"	m	struct:BACNET_TAG::BACNET_BUFFER
+sizeof_apci	bacnet_lib.c	/^static int sizeof_apci(const struct UNKNOWN_PDU *unknown,$/;"	f	file:
+slen	bacnet_lib.h	/^  int slen;$/;"	m	class:BACNET_TAG::__anon2
+slen	bacnet_lib.h	/^  unsigned char slen;		\/\/    1 optional octet.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+snet	bacnet_lib.h	/^  int snet;$/;"	m	class:BACNET_TAG::__anon2
+snet	bacnet_lib.h	/^  unsigned short snet;		\/\/    2 optional octets.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+socket	test_ioctl.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+socket	test_open.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+sspec	bacnet_lib.h	/^  unsigned char sspec : 1;	\/\/   Bit 3.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+sspec	bacnet_lib.h	/^  unsigned char sspec : 1;	\/\/   Bit 3.$/;"	m	struct:PACKED_NPCI
+stats_file	n_mstp.h	/^	struct proc_dir_entry* stats_file;  \/\/ bytes read, bytes written, anything else needed for debug$/;"	m	struct:mstp_procfs	typeref:struct:mstp_procfs::proc_dir_entry
+strtoul	procfs.c	/^unsigned long (*strtoul)(const char*, char**, int);$/;"	v
+struct	test_ioctl.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+struct	test_open.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+submit_addr_change	util.c	/^int submit_addr_change(struct mstp_info* pInfo, unsigned char ucReqdTS)$/;"	f
+subtract_tv	util.c	/^void subtract_tv(struct timeval* pTm0, struct timeval* pTm1, struct timeval* pTmOut)$/;"	f
+sys	test_ioctl.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+sys	test_open.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+szDirName	n_mstp.h	/^	char                   szDirName[50]; \/\/ name of root subdir in procfs for owning mstp_info$/;"	m	struct:mstp_procfs
+szMpxType	n_mstp.h	/^	char*                  szMpxType;  \/\/ name of type of MPX (eg "1200", "2400", etc.)$/;"	m	struct:mpx_cfg
+szPortName	n_mstp.h	/^	char*             szPortName;  \/\/ name of port, eg "com1"; hardcoded$/;"	m	struct:port_cfg
+test_file	n_mstp.h	/^	struct proc_dir_entry* test_file;   \/\/ test results (used to avoid printk() calls)$/;"	m	struct:mstp_procfs	typeref:struct:mstp_procfs::proc_dir_entry
+this_mpx_cfg	mpx_cfg.c	/^struct mpx_cfg* this_mpx_cfg = &mpx_cfg_1200; \/\/ set by XXX_init() of ldisc$/;"	v	typeref:struct:mpx_cfg
+time	test_ioctl.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+time	test_open.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+time_at_port	n_mstp.h	/^	struct timeval     time_at_port; \/\/ time recvd from port, or sent to port$/;"	m	struct:mstp_frame_entry	typeref:struct:mstp_frame_entry::timeval
+timer_restart	n_mstp.h	/^	int               timer_restart; \/\/ check before restarting ANY timers for this ldisc object; 0: do NOT restart$/;"	m	struct:mstp_info
+tmDataReplyEnd	n_mstp.h	/^	struct timeval tmDataReplyEnd;$/;"	m	struct:mstp_procfs_test	typeref:struct:mstp_procfs_test::timeval
+tmEndTokenHold	n_mstp.h	/^	struct timeval    tmEndTokenHold;   \/\/ end time$/;"	m	struct:mstp_node_entry	typeref:struct:mstp_node_entry::timeval
+tmNpduEnd	n_mstp.h	/^	struct timeval tmNpduEnd;$/;"	m	struct:mstp_procfs_test	typeref:struct:mstp_procfs_test::timeval
+tmRecvdDataReply	n_mstp.h	/^	struct timeval tmRecvdDataReply;$/;"	m	struct:mstp_procfs_test	typeref:struct:mstp_procfs_test::timeval
+tmRecvdNpdu	n_mstp.h	/^	struct timeval tmRecvdNpdu;$/;"	m	struct:mstp_procfs_test	typeref:struct:mstp_procfs_test::timeval
+tmStartTokenHold	n_mstp.h	/^	struct timeval    tmStartTokenHold; \/\/ start time of last token hold$/;"	m	struct:mstp_node_entry	typeref:struct:mstp_node_entry::timeval
+tty	n_mstp.h	/^	struct tty_struct* tty; \/\/ connection to port assocd with this mstp_info; VALID ONLY WHILE PORT IS OPEN!$/;"	m	struct:mstp_info	typeref:struct:mstp_info::tty_struct
+tty	test_ioctl.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+tty	test_open.py	/^import fcntl, struct, time, socket, tty, os, select, sys, array, math$/;"	i
+tty_ldisc_N_MSTP	main.c	/^struct tty_ldisc tty_ldisc_N_MSTP = {$/;"	v	typeref:struct:tty_ldisc
+txq	n_mstp.h	/^	struct mstp_frame_entry  txq[MSTP_TXQ_LEN];$/;"	m	struct:mstp_info	typeref:struct:mstp_info::mstp_frame_entry
+txq_not_full	n_mstp.h	/^	atomic_t                 txq_not_full;  \/\/ required, since cf of indices can be a non-atomic op$/;"	m	struct:mstp_info
+u	bacnet_lib.h	/^  } u;$/;"	m	struct:BACNET_TAG	typeref:union:BACNET_TAG::__anon1
+ucAddr	n_mstp.h	/^	unsigned char     ucAddr;$/;"	m	struct:mstp_node_entry
+ucHdrCrc	n_mstp.h	/^	unsigned char      ucHdrCrc;      \/\/ accumulator for incoming hdr byte CRC$/;"	m	struct:mstp_info
+ucNS	n_mstp.h	/^	unsigned char      ucNS;          \/\/ MAC addr of "Next Station"$/;"	m	struct:mstp_info
+ucPS	n_mstp.h	/^	unsigned char      ucPS;          \/\/ MAC addr of "Poll Station"$/;"	m	struct:mstp_info
+ucReqdTS	n_mstp.h	/^	unsigned char      ucReqdTS;      \/\/ stores reqd addr change until OK to implement change (NOT MSTP var)$/;"	m	struct:mstp_info
+ucTS	n_mstp.h	/^	unsigned char      ucTS;          \/\/ MAC addr of "This Station"$/;"	m	struct:mstp_info
+ulMnEndJiffs	n_mstp.h	/^	unsigned long      ulMnEndJiffs;$/;"	m	struct:mstp_info
+ulMnPeriodJiffs	n_mstp.h	/^	unsigned long      ulMnPeriodJiffs;$/;"	m	struct:mstp_info
+ulZeroJiffs	n_mstp.h	/^	unsigned long      ulZeroJiffs;   \/\/ jiffies at which SilenceTimer was last reset$/;"	m	struct:mstp_info
+unconfirmed_request	bacnet_lib.h	/^  struct UNCONFIRMED_REQUEST_PDU *unconfirmed_request;$/;"	m	union:PACKED_APCI	typeref:struct:PACKED_APCI::UNCONFIRMED_REQUEST_PDU
+unknown	bacnet_lib.h	/^  struct UNKNOWN_PDU *unknown;$/;"	m	union:PACKED_APCI	typeref:struct:PACKED_APCI::UNKNOWN_PDU
+update_nodes	util.c	/^void update_nodes(struct mstp_info* pInfo, unsigned char ucSrcAddr, unsigned char ucDstAddr)$/;"	f
+urgent	bacnet_lib.h	/^  urgent = 1,$/;"	e	enum:BACNET_TAG::NET_PRIORITY
+usDataCrc	n_mstp.h	/^	unsigned short     usDataCrc;     \/\/ accumulator for incoming data byte CRC$/;"	m	struct:mstp_info
+usDataLen	n_mstp.h	/^	unsigned short     usDataLen;     \/\/ num data bytes expected$/;"	m	struct:mstp_info
+use_token	fsa_mn.c	/^void use_token(struct mstp_info* pInfo)$/;"	f
+valid	bacnet_lib.h	/^  int valid:1;$/;"	m	struct:BACNET_TAG::BACNET_BUFFER
+valid	bacnet_lib.h	/^  int valid;$/;"	m	class:BACNET_TAG::__anon2
+vendor_id	bacnet_lib.h	/^  int vendor_id;$/;"	m	class:BACNET_TAG::__anon2
+vendor_id	bacnet_lib.h	/^  unsigned short vendor_id;	\/\/    2 optional octets.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+version	bacnet_lib.h	/^  unsigned char version;	\/\/ * Version octet.$/;"	m	struct:BACNET_TAG::BACNET_NPCI
+version	bacnet_lib.h	/^  unsigned char version;	\/\/ * Version octet.$/;"	m	struct:PACKED_NPCI
+window_size	bacnet_lib.h	/^  unsigned char window_size;$/;"	m	struct:BACNET_TAG::BACNET_APCI

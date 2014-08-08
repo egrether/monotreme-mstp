@@ -1,0 +1,104 @@
+Build instructions for Definium Monotreme - Cross Compile
+
+Download and install CodeSourcery (Mentor Graphics now) ARM v7 eabi 
+cross compile tool chain in $HOME/tools. 
+
+Download and untar https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.2.50.tar.xz
+
+Set the following environment variables
+
+export PATH=~/tools/arm-2011-41.03/bin/:$PATH
+export ARCH=arm
+export CROSS_COMPILE=arm-none-linux-gnueabi-
+export PATH=tools/:$PATH
+export INSTALL_MOD_PATH=modules
+
+Build the default kernel. Nothing critical here. It just needs to be present.
+
+Adjust the makefile so that it points to the kernel source.
+
+Run make...
+
+ 
+
+README.build: Instructions for building n_mstp ldisc kernel module for Geode
+and Megatron platforms.
+
+ASSUMED BUILD ENVIRONMENT:
+(1) Yang3 (or later) VM.
+
+FOR GEODE:
+(1) Get megatron-mstp source project from SVN.
+
+(2) Get linux-2.4.21 source project from CVS as a sibling of the megatron-mstp
+    source code (e.g. trunk, tags/tag, branches/branch.)
+
+(3) Build linux-2.4.21 kernel:
+ make distclean 
+ make mrproper
+ mv arch/i386/defconfig arch/i386/defconfig.org
+ cp config-envenergy-geode arch/i386/defconfig
+ yes '' | make oldconfig
+ make dep clean bzImage modules
+
+(4) Build megatron-mstp kernel module for Geode:
+ make -f Makefile-2.4 clean all
+
+(5) To test resulting kernel module on a Geode NBM (still in megatron-mstp 
+directory):
+ scp n_mstp.o.gz mpxadmin@<your_geode_ip_addr>:
+ ssh mpxadmin@<your_geode_ip_addr>
+ <geode_prompt>: init 2
+ <geode_prompt>: rmmod --force n_mstp && insmod n_mstp.o.gz && /etc/rc.mfw -i
+ Look for a proper MFW startup...
+ <geode_prompt>: lsmod
+  ...
+  n_mstp <num_mstp_com_ports * 2>
+  
+FOR MEGATRON:
+(1) Get megatron-kernel source project from SVN.
+
+(2) Build megatron-kernel:
+ export OLDPATH=$PATH
+ echo $OLDPATH
+ export PATH=/home/eng/tools/ppc/85xx/bin:/home/eng/tools/pro/bin:$PATH
+ echo $PATH
+ export CROSS_COMPILE=ppc_85xx-
+ export ARCH=powerpc
+ cd ./linux-2.6.34
+ cp arch/powerpc/configs/megatron_defconfig .config
+ make -j8 uImage
+ make -j8 modules
+ export INSTALL_MOD_PATH=../modules
+ make modules_install
+ make megatron.dtb
+ export PATH=$OLDPATH
+ echo $PATH
+
+(3) Get megatron-mstp source project from SVN, into a directory that is a direct
+sibling of the megatron-kernel source tree.
+
+(4) Build megatron-mstp kernel module for Megatron:
+ export OLDPATH=$PATH
+ echo $OLDPATH
+ export PATH=/home/eng/tools/ppc/85xx/bin:/home/eng/tools/pro/bin:$PATH
+ echo $PATH
+ export CROSS_COMPILE=ppc_85xx-
+ export ARCH=powerpc
+ make clean && cp Makefile-2.6 Makefile && make
+ export PATH=$OLDPATH
+ echo $PATH
+
+
+(5) To test resulting kernel module on a Megatron NBM (still in megatron-mstp 
+directory):
+ scp n_mstp.ko mpxadmin@<your_mega_ip_addr>:
+ ssh mpxadmin@<your_mega_ip_addr>
+ <mega_prompt>: init 2
+ <mega_prompt>: rmmod --force n_mstp && insmod n_mstp.ko && /etc/rc.mfw -i
+ Look for a proper MFW startup...
+ <mega_prompt>: lsmod
+  Output includes:
+  n_mstp <num_mstp_com_ports * 2>
+
+
