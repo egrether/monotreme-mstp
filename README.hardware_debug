@@ -18,7 +18,7 @@ reply xmssn."
 
 FIX:
 Ensure that all devices are properly grounded and no damn-wires are
-connected, OR that no more than one device is grounded and that all devices are
+misconnected, OR that no more than one device is grounded and that all devices are
 connected with "single-point" (ie avoid ground loops) damn-wires.
 
 EMPIRICAL OBSERVATIONS: I saw this issue between a 2400 and a 2500. I tested
